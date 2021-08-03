@@ -2,7 +2,7 @@
 {/* increment a custom Number type */}
 
 function increment (num) {
-  for (var i = num.length - 1; i >= 0; i--) {
+  for ( i = num.length - 1; i >= 0; i--) {
       num[i]++;
       if (num[i] > 9) {
         num[i] = 0;
@@ -16,6 +16,7 @@ function increment (num) {
   return num;
 }
 
-
 console.log(increment([9, 9, 9, 9]));
+
+
 
